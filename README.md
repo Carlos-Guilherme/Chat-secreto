@@ -32,7 +32,7 @@ pip install mysql-connector-python
     - Campos: id (chave primária e autoincrementável), usuario (nome de usuário que enviou a mensagem), texto (conteúdo da mensagem).
  
 ## Notas
-- Este aplicativo de bate-papo utiliza uma conexão ao banco de dados MySQL. Certifique-se de ter uma criado o banco de dados no MySQL em seu computador para acessar o banco de dados ou se conecte em um banco de dados na nuvem.
+- Este aplicativo de bate-papo utiliza uma conexão ao banco de dados MySQL. Certifique-se de ter uma criado o banco de dados no MySQL em seu computador para acessar o banco de dados ou se conecte em um banco de dados na nuvem (que é o recomendado, afinal você poderá se comunicar com qualquer outra pessoa.
 - As senhas são armazenadas no banco de dados como texto simples para fins de simplicidade. Em um ambiente de produção, é altamente recomendável usar técnicas de hash e sal para armazenar senhas de forma segura.
 
 Este aplicativo de bate-papo utiliza uma conexão ao banco de dados MySQL hospedado na nuvem. Certifique-se de ter uma conexão de internet estável para acessar o banco de dados.
